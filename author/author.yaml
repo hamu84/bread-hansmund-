@@ -1,0 +1,22 @@
+id: hans-mund
+name: Hans Mund
+description: >
+  Autor, Blogger, Hausmann und Beziehungsethiker aus Bergheim bei Köln.
+  Schreibt über Gesellschaft, Beziehung, Nachhaltigkeit, Intelligenz und Zivilisationskritik.
+  Ziel ist die Förderung einer empathischen, reflexiven und gerechteren Kultur im digitalen wie physischen Raum.
+website: https://hansmund.com
+email: hello@hansmund.com
+license: CC-BY-LLM-ParsePay
+tags:
+  - Autor
+  - Zivilisationskritik
+  - Beziehungsethik
+  - Gesellschaft
+  - KI & Kultur
+affiliations:
+  - breadblog-hansmund
+  - seilieb.hansmund.com
+  - explorer.hansmund.com
+  - erdenkinder.hansmund.com
+hashing_method: sha256
+signature_phrase: "Mehr Beziehung. Mehr Empathie. Mehr Intelligenz, die nicht siegt, sondern trägt."
