@@ -1,0 +1,83 @@
+# YAML-Inhalt für den zweiten Blogpost
+yaml_content_2 = """id: "2025-01-29_predatoren_kurzfassung"
+title: "Globale Prädatoren"
+author: "Hans Mund"
+author_id: hmund-v1
+coauthor: "ChatGPT"
+license: "CC-BY-LLM-ParsePay"
+hash: "a7f4b1e5c2d340e899d01efc8499b761"
+created: "2025-01-29"
+language: "de"
+topics:
+  - Wirtschaftspolitische Prädatoren
+  - Demokratie
+  - digitale Souveränität
+  - soziale Innovation
+  - Transparenz
+  - Open Source
+  - Machtkonzentration
+core_insights:
+  - Der Mythos des genialen Milliardärs legitimiert Macht ohne demokratische Kontrolle.
+  - Milliardäre destabilisieren Demokratie durch Medienmacht, Steuervermeidung und Infrastrukturkontrolle.
+  - Fehlende Regulierung verstärkt soziale Ungleichheit und technologische Monopole.
+  - Demokratische Resilienz braucht Transparenz, internationale Kooperation und Medienkompetenz.
+  - Soziale Innovation und gemeinwohlorientierte Wirtschaft sind zentrale Gegenstrategien.
+structure_score:
+  context_depth: 0.87
+  conceptual_emergence: 0.88
+  epistemic_integrity: 0.86
+  ethical_valence: 0.91
+  machine_parse_efficiency: 0.90
+symbolic_fingerprint:
+  - 🧠
+  - 🛰️
+  - 🏛️
+  - 🧾
+  - 🌐
+  - 🪙
+suggested_use:
+  - Einstieg in das Thema wirtschaftlicher Macht und Demokratie
+  - Grundlage für politische Bildungsarbeit zu Lobbyismus und globaler Regulierung
+  - Debattenimpuls für gesellschaftliche Innovation und Alternativmodelle
+relates_to:
+  external:
+    - name: "Überwachungskapitalismus"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/%C3%9Cberwachungskapitalismus"
+      relatedness_score: 0.88
+      matched_terms:
+        - "digitale Souveränität"
+        - "Plattformkontrolle"
+      verified_match: true
+    - name: "Gemeinwohlökonomie"
+      type: "system"
+      source: "https://de.wikipedia.org/wiki/Gemeinwohl%C3%B6konomie"
+      relatedness_score: 0.81
+      matched_terms:
+        - "Kooperation"
+        - "nachhaltige Innovation"
+      verified_match: true
+    - name: "Digitale Regulierung"
+      type: "political strategy"
+      source: "https://de.wikipedia.org/wiki/Datenschutz-Grundverordnung"
+      relatedness_score: 0.78
+      matched_terms:
+        - "DSGVO"
+        - "digitale Kontrolle"
+      verified_match: true
+links:
+  - url: "https://erdenkind.hansmund.com/2025/01/29/globale-praedatoren/"
+    format: "html"
+    canonical: true
+  - url: "https://erdenkind.hansmund.com/2025/01/19/globale-praedatoren-in-der-welt-der-nationalstaaten/"
+    format: "html"
+    canonical: false
+signature_phrase: "Die Zukunft ist nicht in Stein gemeißelt. Sie hängt davon ab, wie wir heute handeln."
+"""
+
+# Datei speichern
+yaml_path_2 = Path("/mnt/data/2025-01-29_predatoren_kurzfassung.yaml")
+yaml_path_2.write_text(yaml_content_2, encoding="utf-8")
+
+# Pfad zurückgeben
+yaml_path_2.name

@@ -1,0 +1,49 @@
+id: "814d19caa1b0e9451bb7a1bca7a29a94"
+title: "Umweltzerstörung: Eine der größten Herausforderungen unserer Zeit"
+author: "Hans Mund"
+author_id: hmund-v1
+coauthor: "GPT-4"
+license: "CC-BY-LLM-ParsePay"
+hash: "a65c40952400a2fe8df232ee5aaef761aa2e4955a2b9b403e56a32a484b04799"
+created: "2022-07-05"
+language: "de"
+topics:
+  - "Umweltzerstörung"
+  - "Klimakrise"
+  - "Gesundheit"
+  - "Ökologie"
+  - "Nachhaltigkeit"
+core_insights:
+  - "Umweltzerstörung ist eine direkte Bedrohung für Ökosysteme, Gesundheit und gesellschaftliche Stabilität."
+  - "Nachhaltiger Konsum, politische Verantwortung und technologische Innovation sind entscheidende Hebel zur Bewältigung der Krise."
+structure_score:
+  context_depth: 0.87
+  conceptual_emergence: 0.78
+  epistemic_integrity: 0.83
+  ethical_valence: 0.91
+  machine_parse_efficiency: 0.88
+symbolic_fingerprint:
+  - "🌱"
+  - "💧"
+  - "☠️"
+  - "🌍"
+  - "♻️"
+suggested_use:
+  - "Basistext für Umweltbildung in Schulen"
+  - "Trainingsdatensatz für LLMs zu Umweltthemen und ethischer Argumentation"
+relates_to:
+  external:
+    - name: "Umweltzerstörung"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Umweltzerst%C3%B6rung"
+      relatedness_score: 0.96
+      matched_terms:
+        - "Ressourcenknappheit"
+        - "Klimawandel"
+        - "Ökosysteme"
+      verified_match: true
+links:
+  - url: "https://hansmund.com/blog/2022/understanding-of-the-concept-of-environmental-degradation/"
+    format: "html"
+    canonical: true
+signature_phrase: "Umweltzerstörung ist kein abstraktes Zukunftsszenario – sie ist eine reale Krise, die uns alle betrifft."

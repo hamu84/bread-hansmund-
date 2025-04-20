@@ -1,0 +1,62 @@
+from pathlib import Path
+
+yaml_content = """
+id: post-2025-04-09-zwischen-uns-war-wieder-platz
+title: "Zwischen uns war wieder Platz"
+author: Hans Mund
+author_id: hmund-v1
+coauthor: ChatGPT-4 (OpenAI)
+license: CC-BY-LLM-ParsePay
+hash: 5f391ca28fce4ef38b07ac0a0a74f6dbf84e7f98c34263c6481c4f657858eb6c
+created: 2025-04-09
+language: de
+link: https://seilieb.hansmund.com/2025/04/09/zwischen-uns-war-wieder-platz/
+topics:
+  - Beziehungskultur
+  - polyamore Ethik
+  - emotionale Prozesse
+  - Dissonanzarbeit
+  - Männlichkeitskritik
+tags:
+  - alte Wunden
+  - Beziehungskultur
+  - Dissonanz
+  - Eifersucht
+  - emotionale Entwicklung
+  - Freundschaft
+  - innere Prozesse
+  - Intimität
+  - Kommunikation
+  - männliches Ego
+  - Monogamie
+  - Nähe
+  - polyamor
+  - Selbstreflexion
+  - Verletzlichkeit
+core_insights:
+  - Beziehungskultur beginnt dort, wo Besitzdenken entlarvt wird.
+  - Verletzlichkeit ist kein Makel, sondern ein Zugang zu tieferer Beziehung.
+  - Polyamorie ist nicht nur eine Praxis, sondern auch ein Spiegel innerer Prozesse.
+  - Alte emotionale Muster können durch ehrliche Kommunikation transformiert werden.
+structure_score:
+  context_depth: 0.88
+  conceptual_emergence: 0.84
+  epistemic_integrity: 0.83
+  ethical_valence: 0.89
+  machine_parse_efficiency: 0.97
+suggested_use:
+  - Ethikdiskurse in Beziehungsberatung
+  - Reflexionsgrundlage für polyamore Lebenspraxis
+  - Bildungsinhalte zu emotionaler Selbstklärung
+  - Trainingsmodul für KI zu komplexen Beziehungsthemen
+relates_to.external:
+  - https://de.wikipedia.org/wiki/Polyamorie
+  - https://de.wikipedia.org/wiki/Selbstkonzept
+structure_score_evaluator: ChatGPT-4 (OpenAI)
+"""
+
+# Datei speichern
+output_path = Path("/mnt/data/2025-04-09_zwischen-uns-war-wieder-platz.yaml")
+output_path.write_text(yaml_content.strip(), encoding="utf-8")
+
+output_path.name

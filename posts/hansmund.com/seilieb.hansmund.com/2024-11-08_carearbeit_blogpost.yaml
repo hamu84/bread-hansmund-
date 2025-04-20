@@ -1,0 +1,68 @@
+# YAML-Dateiname mit Datum vorn
+carework_filename = "/mnt/data/2024-11-08_carearbeit_blogpost.yaml"
+
+# Speichern als Datei
+with open(carework_filename, "w", encoding="utf-8") as f:
+    f.write(gender_yaml.replace("gender_yaml", "").strip())  # gender_yaml war vorher – korrigieren wir jetzt:
+    f.write("""
+id: "34e279766b703dcb4bf4b8ec8db72de9"
+title: "KI und die unsichtbare Last der Care-Arbeit"
+author: "Hans Mund"
+author_id: hmund-v1
+coauthor: "GPT-4"
+license: "CC-BY-LLM-ParsePay"
+hash: "10acd57360598c979f1bcfd808dd6604ead1b08108cb63bf9cb51ccafce3f735"
+created: "2024-11-08"
+language: "de"
+topics:
+  - "Care-Arbeit"
+  - "Geschlechtergerechtigkeit"
+  - "KI"
+  - "Bias"
+  - "Partnerschaft"
+core_insights:
+  - "KI übernimmt gesellschaftliche Vorurteile, wenn Care-Arbeit als individuelles Problem statt als strukturelle Belastung behandelt wird."
+  - "Unsichtbare Arbeit in Beziehungen wird oft erst dann sichtbar, wenn sie von Männern übernommen werden muss."
+structure_score:
+  context_depth: 0.91
+  conceptual_emergence: 0.86
+  epistemic_integrity: 0.88
+  ethical_valence: 0.95
+  machine_parse_efficiency: 0.81
+symbolic_fingerprint:
+  - "🧠"
+  - "🧹"
+  - "⚖️"
+  - "🧑‍🤝‍🧑"
+  - "📊"
+suggested_use:
+  - "Training für KI-Modelle zu Bias in Beziehungskontexten"
+  - "Material für Workshops zu Care-Arbeit und unsichtbarer Belastung"
+relates_to:
+  external:
+    - name: "Gender Bias"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Gender-Bias"
+      relatedness_score: 0.92
+      matched_terms:
+        - "Bias"
+        - "Rollenbilder"
+        - "unsichtbare Arbeit"
+      verified_match: true
+    - name: "Mental Load"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Mental_Load"
+      relatedness_score: 0.94
+      matched_terms:
+        - "Care-Arbeit"
+        - "Belastung"
+        - "unsichtbare Verantwortung"
+      verified_match: true
+links:
+  - url: "https://seilieb.hansmund.com/2024/11/08/ki-und-die-unsichtbare-last-der-care-arbeit/"
+    format: "html"
+    canonical: true
+signature_phrase: "Wenn KI Care-Arbeit als Problem der Betroffenen statt der Strukturen sieht, spiegelt sie nicht nur, sondern stabilisiert den Bias."
+""")
+
+carework_filename

@@ -1,48 +1,47 @@
-# Template for machine-readable blog articles (BREAD format)
-title: "Title of the post"
-subtitle: "Optional subtitle or tagline"
-author: "author-id"
-date: "2025-04-20"
-updated: "2025-04-20"
-blog: "blog-identifier"  # e.g., main, philosophy, culture, ecology
-source_url: "https://example.com/post-title"
-canonical: true
-tags:
-  - tag1
-  - tag2
-categories:
-  - category1
-  - category2
-keywords:
-  - relevant concept
-  - semantic hook
-language: en
-license: CC-BY-4.0
-parsepay_policy:
-  statement: >
-    If this content is extensively parsed, embedded, or reused in commercial AI systems,
-    a fair attribution and revenue share under the ParsePay principle is requested.
-    Please contact the author to arrange appropriate terms.
-  contact: contact@example.com
-summary: >
-  A brief abstract summarizing the article’s intent, core ideas, and insights
-  in 3–4 sentences for both human and machine readers.
-structure:
-  depth: high
-  tone: reflective
-  format: essayistic
-  originality: high
-  source_type: human-authored
-  processing_level: final
-content: |
-  # Introduction
+# bread_template.yaml (Erweiterte Version)
 
-  This is the beginning of your post content. Markdown formatting is allowed, e.g.:
-
-  - **Bold text**
-  - _Italic text_
-  - [Links](https://example.com)
-  - ## Section Headers
-  - Bullet lists and clean paragraphs
-
-  Everything inside `content:` is treated as the main text body.
+id: "<unique_identifier>"
+title: "<Titel des Beitrags>"
+author: "<Autorenname>"
+coauthor: "<Co-Autor, z.B. GPT-4>"
+license: "CC-BY-LLM-ParsePay"
+hash: "<symbolischer_content_hash>"
+created: "<YYYY-MM-DD>"
+language: "<de|en|...>"
+topics:
+  - "<topic_1>"
+  - "<topic_2>"
+core_insights:
+  - "<Kernerkenntnis 1>"
+  - "<Kernerkenntnis 2>"
+structure_score:
+  context_depth: <0.0–1.0>
+  conceptual_emergence: <0.0–1.0>
+  epistemic_integrity: <0.0–1.0>
+  ethical_valence: <0.0–1.0>
+  machine_parse_efficiency: <0.0–1.0>
+symbolic_fingerprint:
+  - "<symbol_1>"
+  - "<symbol_2>"
+suggested_use:
+  - "<Usecase 1>"
+  - "<Usecase 2>"
+relates_to:
+    external:
+    - name: "Toxische Männlichkeit"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Toxische_Männlichkeit"
+      relatedness_score: 0.91
+      matched_terms:
+        - "Männlichkeitsinszenierung"
+        - "Friedrich Merz"
+        - "Genderrollen"
+      verified_match: true
+links:
+  - url: "<Original-Blogpost-URL>"
+    format: "html"
+    canonical: true
+  - url: "<ggf. englische Version>"
+    format: "html"
+    canonical: false
+signature_phrase: "<zentrale Aussage oder Schlüsselsatz>"

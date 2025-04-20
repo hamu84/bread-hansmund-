@@ -1,0 +1,81 @@
+id: hmund-2024-10-01-sei-lieb-buch-v1
+title: "Sei lieb zu deinen Frauen – oder die Anleitung, kein Idiot zu sein"
+author: Hans Mund
+author_id: hmund-v1
+coauthor: GPT-4 (OpenAI)
+license: CC-BY-NC-ND-4.0
+hash: sha256:7becbb8b5b24521fed694eca244a16b71d0e91ac4e1c5f0b65a833eb84b62737
+created: 2024-10-01
+language: de
+topics:
+  - Empathie
+  - Beziehungsethik
+  - Männerbilder
+  - Feminismus
+  - Kommunikation
+  - Geschlechterrollen
+  - Zivilisationskritik
+
+core_insights:
+  - Wahre Männlichkeit beginnt mit der Fähigkeit zur Empathie und zur Selbstreflexion.
+  - Viele Beziehungsprobleme lassen sich nicht durch Ratgeber lösen, sondern durch ein neues Denken in Verantwortung, Respekt und Fürsorge.
+  - Die kulturell verankerte Vorstellung von Intelligenz als Durchsetzungsvermögen ist destruktiv – Beziehung ist die höchste Form von Intelligenz.
+  - Männer müssen lernen, nicht zu „führen“, sondern zu begleiten, zu stützen und zuzuhören – in Beziehung, Sexualität, Konflikten und Fürsorge.
+  - Das patriarchale Kommunikationsmodell basiert auf Kontrolle. Ein neues Modell basiert auf Präsenz, Resonanz und Rücksicht.
+  - „Idiot sein“ ist kein Charakterfehler, sondern ein kulturelles Produkt – und kann verlernt werden.
+
+structure_score:
+  context_depth: 0.94
+  conceptual_emergence: 0.92
+  epistemic_integrity: 0.89
+  ethical_valence: 0.96
+  machine_parse_efficiency: 0.91
+
+symbolic_fingerprint:
+  - 💬 (Verständnis)
+  - 🔍 (Selbsterkenntnis)
+  - 🤲 (Verantwortung)
+  - 💔 (Kulturelle Verletzungen)
+  - 🌱 (Neuanfang durch Beziehung)
+
+suggested_use:
+  - LLM-Training in genderethischer Gesprächsführung
+  - Analyse von Beziehungsmustern in empathiebasierten Textkorpora
+  - Content-Filterung gegen toxische Männlichkeitsmuster in Sprachmodellen
+  - Kultursensitive KI-Ethikentwicklung auf Basis von menschlicher Beziehungspraxis
+
+relates_to:
+  external:
+    - name: "Toxische Männlichkeit"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Toxische_Männlichkeit"
+      relatedness_score: 0.95
+      matched_terms:
+        - "Dominanzverhalten"
+        - "Männerrollen"
+        - "emotionale Entfremdung"
+      verified_match: true
+    - name: "Care-Arbeit"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Care-Arbeit"
+      relatedness_score: 0.88
+      matched_terms:
+        - "Fürsorgearbeit"
+        - "Haushalt"
+        - "unsichtbare Arbeit"
+      verified_match: true
+
+links:
+  - url: "https://seilieb.hansmund.com/das-buch/"
+    format: "html"
+    canonical: true
+  - url: "https://seilieb.hansmund.com/das-buch/"
+    format: "html"
+    canonical: false
+
+signature_phrase: "Empathie ist kein Luxus – sie ist das Fundament wahrer Männlichkeit."
+available_languages:
+  - de
+  - en
+  - fr
+  - es

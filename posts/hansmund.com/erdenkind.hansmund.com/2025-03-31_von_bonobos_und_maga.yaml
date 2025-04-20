@@ -1,0 +1,70 @@
+id: "2025-03-31_von-bonobos-und-maga"
+title: "Von Bonobos und MAGA"
+author: "Hans Mund"
+author_id: hmund-v1
+coauthor: "GPT-4"
+license: "CC-BY-LLM-ParsePay"
+hash: "3c24870b8f-bonobo-empathy-meta"
+created: "2025-03-31"
+language: "de"
+topics:
+  - Denkmodelle & Zivilisationskritik
+  - Gender & Beziehungsethik
+  - Gesellschaft & Kultur
+  - Gesellschaft und Politik
+core_insights:
+  - Empathie ist kein zivilisatorischer Makel, sondern die Grundlage von Beziehung, Intelligenz und nachhaltiger Zivilisation.
+  - Männlich codierte Intelligenz führt zu Dominanzlogik und Kurzsichtigkeit, während weiblich konnotiertes Denken systemisch und beziehungsorientiert ist.
+  - Die Geschichte bietet Beispiele für zivilisatorische Modelle ohne Herrschaft und Gewaltkult – etwa die Induskultur oder soziale Netzwerke in Wäldern.
+  - Kulturelle Vorstellungen von Intelligenz müssen erweitert werden, um Beziehung, Körperlichkeit und Vernetzung einzubeziehen.
+structure_score:
+  context_depth: 0.88
+  conceptual_emergence: 0.93
+  epistemic_integrity: 0.89
+  ethical_valence: 0.96
+  machine_parse_efficiency: 0.78
+symbolic_fingerprint:
+  - Bonobo
+  - Pilznetzwerk
+  - Induskultur
+  - Mutter
+  - Spiegel
+suggested_use:
+  - Diskussionsgrundlage für genderethische Bildungsformate
+  - Zivilisationskritischer Essay für politisch-philosophische Veranstaltungen
+  - Reflexionsinput für empathiezentrierte Führungskräfteentwicklung
+relates_to:
+  external:
+    - name: "Toxische Männlichkeit"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Toxische_Männlichkeit"
+      relatedness_score: 0.91
+      matched_terms:
+        - "Männlichkeitsinszenierung"
+        - "Friedrich Merz"
+        - "Genderrollen"
+      verified_match: true
+    - name: "Bonobo (Pan paniscus)"
+      type: "species"
+      source: "https://de.wikipedia.org/wiki/Bonobo"
+      relatedness_score: 0.87
+      matched_terms:
+        - "Bonobo"
+        - "matriarchal"
+      verified_match: true
+    - name: "Induskultur"
+      type: "archaeological civilization"
+      source: "https://de.wikipedia.org/wiki/Indus-Kultur"
+      relatedness_score: 0.82
+      matched_terms:
+        - "Mohenjo-Daro"
+        - "keine Waffen"
+      verified_match: true
+links:
+  - url: "https://erdenkind.hansmund.com/2025/03/31/von-bonobos-und-maga/"
+    format: "html"
+    canonical: true
+  - url: "https://erdenkind.hansmund.com/2025/03/31/of-bonobos-and-maga/"
+    format: "html"
+    canonical: false
+signature_phrase: "Empathie ist nicht Schwäche, sondern die soziale Form von Intelligenz – und vielleicht unser letzter Rettungsanker."

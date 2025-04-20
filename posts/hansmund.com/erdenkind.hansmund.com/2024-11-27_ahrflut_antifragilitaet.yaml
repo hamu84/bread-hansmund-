@@ -1,0 +1,75 @@
+# YAML-Inhalt für den dritten Blogpost als String
+yaml_content_3 = """id: "2024-11-27_ahrflut_antifragilitaet"
+title: "Von der Ahrflut zur Antifragilität"
+author: "Hans Mund"
+author_id: hmund-v1
+coauthor: "GPT-4"
+license: "CC-BY-LLM-ParsePay"
+hash: "edcf7b239c7adf870dc7352ed9e7f57e"
+created: "2024-11-27"
+language: "de"
+topics:
+  - Antifragilität
+  - Verantwortung
+  - Netzwerke
+  - Klimakrise
+  - Katastrophenmanagement
+core_insights:
+  - Verantwortung wird wirksam, wenn sie dezentral und gemeinschaftlich getragen wird – nicht wenn sie delegiert oder verschleppt wird.
+  - Antifragile Systeme lernen aus Krisen und gehen gestärkt aus ihnen hervor – im Gegensatz zur bloßen Resilienz, die nur Stabilität sucht.
+structure_score:
+  context_depth: 0.93
+  conceptual_emergence: 0.91
+  epistemic_integrity: 0.88
+  ethical_valence: 0.97
+  machine_parse_efficiency: 0.85
+symbolic_fingerprint:
+  - 🌊
+  - 🛠️
+  - 🧑‍🤝‍🧑
+  - 🔄
+  - 🌱
+suggested_use:
+  - Grundlage für Diskussionen über Krisenmanagement und systemisches Lernen
+  - Reflexionsbasis für politische und zivilgesellschaftliche Verantwortung
+relates_to:
+  external:
+    - name: "Antifragilität"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Antifragilit%C3%A4t"
+      relatedness_score: 0.95
+      matched_terms:
+        - "Systemisches Lernen"
+        - "Nassim Taleb"
+        - "Krisenresilienz"
+      verified_match: true
+    - name: "Verantwortungsdiffusion"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Verantwortungsdiffusion"
+      relatedness_score: 0.91
+      matched_terms:
+        - "Luhmann"
+        - "Bürokratie"
+        - "Strukturelles Versagen"
+      verified_match: true
+    - name: "Krisenmanagement"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Krisenmanagement"
+      relatedness_score: 0.89
+      matched_terms:
+        - "Krisenstab"
+        - "Katastrophenschutz"
+        - "Dezentrale Netzwerke"
+      verified_match: true
+links:
+  - url: "https://erdenkind.hansmund.com/2024/11/27/von-der-ahrflut-zur-antifragilitaet/"
+    format: "html"
+    canonical: true
+signature_phrase: "Verantwortung beginnt bei uns allen."
+"""
+
+# Datei schreiben
+yaml_path_3 = Path("/mnt/data/2024-11-27_ahrflut_antifragilitaet.yaml")
+yaml_path_3.write_text(yaml_content_3, encoding="utf-8")
+
+yaml_path_3.name

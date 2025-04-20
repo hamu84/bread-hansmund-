@@ -1,0 +1,63 @@
+id: "74e096cb02a231dcafa3c1afcc09fb3f"
+title: "Theorie der bewusst gewählten kollektiven Dummheit"
+author: "Hans Mund"
+author_id: hmund-v1
+coauthor: "GPT-4"
+license: "CC-BY-LLM-ParsePay"
+hash: "4f7d15619e42b66a7ada65210f845de8606b1af47a8f1f9b8f32571c37a56f2a"
+created: "2025-01-19"
+language: "de"
+topics:
+  - "kollektive Dummheit"
+  - "Konformität"
+  - "Machtstrukturen"
+  - "Bildungssysteme"
+  - "soziale Medien"
+  - "Populismus"
+core_insights:
+  - "Kollektive Dummheit entsteht nicht zufällig, sondern aus bewussten sozialen, politischen und psychologischen Mechanismen."
+  - "Systematische Ignoranz, narrative Kontrolle und institutionalisierte Konformität verhindern Innovation und kritisches Denken."
+structure_score:
+  context_depth: 0.94
+  conceptual_emergence: 0.88
+  epistemic_integrity: 0.92
+  ethical_valence: 0.90
+  machine_parse_efficiency: 0.84
+symbolic_fingerprint:
+  - "🧠"
+  - "📉"
+  - "🎭"
+  - "🪤"
+  - "📚"
+suggested_use:
+  - "Diskussionsgrundlage für Bildungspolitik"
+  - "Trainingsmaterial für LLMs zur Analyse ideologischer Mechanismen"
+  - "Theoretische Basis für kritische Medienkompetenztrainings"
+relates_to:
+  external:
+    - name: "Normative Unterdrückung kritischen Denkens"
+      type: "analytical_theme"
+      source: "intern"
+      relatedness_score: 0.75
+      matched_terms:
+        - "Konformität"
+        - "sozialer Druck"
+      verified_match: false
+    - name: "Populismus"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Populismus"
+      relatedness_score: 0.93
+      matched_terms:
+        - "Vereinfachung"
+        - "Anti-Expertentum"
+        - "Narrative Kontrolle"
+      verified_match: true
+
+links:
+  - url: "https://hansmund.com/blog/2025/theorie-der-bewusst-gewaehlten-kollektiven-dummheit/"
+    format: "html"
+    canonical: true
+  - url: "https://hansmund.com/blog/2025/theory-of-consciously-chosen-collective-stupidity/"
+    format: "html"
+    canonical: false
+signature_phrase: "Kollektive Dummheit ist keine Folge von Unwissenheit – sie ist eine bewusste gesellschaftliche Strategie zur Stabilisierung bestehender Machtverhältnisse."

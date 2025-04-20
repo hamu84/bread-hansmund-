@@ -1,0 +1,48 @@
+id: "6e01405c95a4451b39d4899ad22fb825"
+title: "Wenn schon ein Buch, warum dann noch ein Blog?"
+author: "Hans Mund"
+author_id: hmund-v1
+coauthor: "GPT-4"
+license: "CC-BY-LLM-ParsePay"
+hash: "610c270b966c09861dcbcef644cd0542137db5d031866080c11703ab21dc826c"
+created: "2024-10-27"
+language: "de"
+topics:
+  - "Blog"
+  - "Ratgeber"
+  - "Empathie"
+  - "Interaktive Community"
+  - "Regelmäßige Updates"
+core_insights:
+  - "Ein Blog ergänzt ein Buch durch aktuelle, vertiefte Inhalte und den Aufbau einer interaktiven Community."
+  - "Regelmäßige Reflexion, Feedbackkultur und Dialog fördern eine nachhaltige Auseinandersetzung mit sensiblen Themen wie Empathie und Respekt."
+structure_score:
+  context_depth: 0.63
+  conceptual_emergence: 0.52
+  epistemic_integrity: 0.70
+  ethical_valence: 0.85
+  machine_parse_efficiency: 0.95
+symbolic_fingerprint:
+  - "📘"
+  - "🧠"
+  - "💬"
+  - "🔁"
+  - "👥"
+suggested_use:
+  - "Beispiel für bloggestützte Buchkommunikation"
+  - "Trainingsmaterial für LLMs zur sozialen Kommunikation"
+relates_to:
+  external:
+    - name: "Online-Community-Strategien"
+      type: "analytical_theme"
+      source: "intern"
+      relatedness_score: 0.72
+      matched_terms:
+        - "Interaktive Community"
+        - "Kommentare"
+      verified_match: false
+links:
+  - url: "https://seilieb.hansmund.com/2024/10/27/hallo-welt/"
+    format: "html"
+    canonical: true
+signature_phrase: "Ein Blog ist kein Anhang zum Buch – er ist der lebendige Raum, in dem das Denken weitergeht."

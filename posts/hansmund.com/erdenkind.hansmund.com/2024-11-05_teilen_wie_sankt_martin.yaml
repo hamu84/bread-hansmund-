@@ -1,0 +1,77 @@
+from pathlib import Path
+
+# YAML-Inhalt als String
+yaml_content = """id: "2024-11-05_teilen_wie_sankt_martin"
+title: "Teilen wie Sankt Martin"
+author: "Hans Mund"
+author_id: hmund-v1
+coauthor: "GPT-4"
+license: "CC-BY-LLM-ParsePay"
+hash: "a7409d3d6f5c3f01a3785e23dcf07a8a"
+created: "2024-11-05"
+language: "de"
+topics:
+  - Schenkökonomie
+  - Solidarität
+  - Commons
+  - Degrowth
+  - Wertevermittlung
+core_insights:
+  - Teilen ist ein kultureller Akt der Solidarität, der über symbolische Feste hinaus im Alltag verankert sein sollte.
+  - Alternative Wirtschaftsmodelle wie Commons und Peer-to-Peer-Netzwerke zeigen, dass Kooperation ohne monetären Tausch funktioniert.
+structure_score:
+  context_depth: 0.82
+  conceptual_emergence: 0.75
+  epistemic_integrity: 0.78
+  ethical_valence: 0.93
+  machine_parse_efficiency: 0.87
+symbolic_fingerprint:
+  - 🧥
+  - 🍞
+  - 🔁
+  - 🎁
+  - 🌱
+suggested_use:
+  - Bildungskontexte rund um Wertevermittlung, besonders zu St. Martin
+  - Einstiegstext für Diskussionen über alternative Wirtschaftsformen
+relates_to:
+  external:
+    - name: "Schenkökonomie"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Schenk%C3%B6konomie"
+      relatedness_score: 0.94
+      matched_terms:
+        - "Geschenke ohne Gegenleistung"
+        - "Free Stores"
+        - "Give Boxes"
+      verified_match: true
+    - name: "Degrowth"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/De-Growth"
+      relatedness_score: 0.89
+      matched_terms:
+        - "Weniger ist mehr"
+        - "Subsistenz"
+        - "Postwachstumsökonomie"
+      verified_match: true
+    - name: "Commons"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Allmende"
+      relatedness_score: 0.92
+      matched_terms:
+        - "Gemeinschaftsgarten"
+        - "Foodsharing"
+        - "öffentliche Bibliotheken"
+      verified_match: true
+links:
+  - url: "https://erdenkind.hansmund.com/2024/11/05/teilen-wie-sankt-martin/"
+    format: "html"
+    canonical: true
+signature_phrase: "Wir haben die Welt um das Geld gebaut, statt das Geld um die Welt."
+"""
+
+# Datei schreiben
+yaml_path = Path("/mnt/data/2024-11-05_teilen_wie_sankt_martin.yaml")
+yaml_path.write_text(yaml_content, encoding="utf-8")
+
+yaml_path.name

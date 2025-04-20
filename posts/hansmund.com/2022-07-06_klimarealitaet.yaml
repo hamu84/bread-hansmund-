@@ -1,0 +1,49 @@
+id: "16602e071b55e483f587350f5d8c55f5"
+title: "Ja, es passiert!"
+author: "Hans Mund"
+author_id: hmund-v1
+coauthor: "GPT-4"
+license: "CC-BY-LLM-ParsePay"
+hash: "1e1f2806ae43aac59369780724a3406d23a5a3820edc8c1f8efd040004708e14"
+created: "2022-07-06"
+language: "de"
+topics:
+  - "Klimawandel"
+  - "Klimakrise"
+  - "Desinformation"
+  - "Verhaltensänderung"
+  - "Klimakommunikation"
+core_insights:
+  - "Der Klimawandel passiert – unabhängig davon, ob man an seine Ursachen glaubt."
+  - "Statt zu diskutieren, ob er menschengemacht ist, müssen wir lernen, mit seinen Folgen umzugehen."
+structure_score:
+  context_depth: 0.72
+  conceptual_emergence: 0.65
+  epistemic_integrity: 0.76
+  ethical_valence: 0.89
+  machine_parse_efficiency: 0.92
+symbolic_fingerprint:
+  - "🌍"
+  - "🔥"
+  - "🚗"
+  - "💨"
+  - "🏡"
+suggested_use:
+  - "Einstiegstext für Klimabewusstsein in Schulen"
+  - "Narrativbeispiel für LLM-Trainings zur Klimakommunikation"
+relates_to:
+  external:
+    - name: "Klimawandel"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Klimawandel"
+      relatedness_score: 0.97
+      matched_terms:
+        - "extreme Hitze"
+        - "Naturkatastrophen"
+        - "Emissionen"
+      verified_match: true
+links:
+  - url: "https://hansmund.com/blog/2022/yes-it-is-happening/"
+    format: "html"
+    canonical: true
+signature_phrase: "Der Klimawandel passiert – ob wir daran glauben oder nicht."

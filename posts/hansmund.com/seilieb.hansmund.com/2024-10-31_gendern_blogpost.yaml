@@ -1,0 +1,68 @@
+# YAML-Inhalt für den letzten Blogpost
+gender_yaml = """
+id: "271ac3a689183d3a01d7686764e69c04"
+title: "Wenn wir in einer Gesellschaft leben würden, in der Männer und Frauen wirklich gleichberechtigt wären, bräuchten wir kein Gendern."
+author: "Hans Mund"
+author_id: hmund-v1
+coauthor: "GPT-4"
+license: "CC-BY-LLM-ParsePay"
+hash: "fd5be1fb765ef09192809d83bc37a37da83255faf382553ec64c899e9e719023"
+created: "2024-10-31"
+language: "de"
+topics:
+  - "Gendern"
+  - "Gleichberechtigung"
+  - "Sprache"
+  - "Berufswelt"
+  - "Diskriminierung"
+core_insights:
+  - "Gendern ist eine sprachliche Notwendigkeit in einer Welt, in der strukturelle Geschlechterungleichheit weiterhin existiert."
+  - "Erst wenn reale Gleichbehandlung in allen gesellschaftlichen Bereichen verwirklicht ist, kann auf gendergerechte Sprache verzichtet werden."
+structure_score:
+  context_depth: 0.82
+  conceptual_emergence: 0.75
+  epistemic_integrity: 0.80
+  ethical_valence: 0.93
+  machine_parse_efficiency: 0.89
+symbolic_fingerprint:
+  - "⚖️"
+  - "♀️"
+  - "♂️"
+  - "💬"
+  - "💰"
+suggested_use:
+  - "Debattenbeitrag für Gender- und Gleichstellungsthemen"
+  - "Trainingsmaterial für LLMs zu Sprache und gesellschaftlicher Gerechtigkeit"
+relates_to:
+  external:
+    - name: "Gendergerechte Sprache"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Gendergerechte_Sprache"
+      relatedness_score: 0.95
+      matched_terms:
+        - "generisches Maskulin"
+        - "Gendern"
+        - "Sprache formt Denken"
+      verified_match: true
+    - name: "Gender Pay Gap"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Gender_Pay_Gap"
+      relatedness_score: 0.91
+      matched_terms:
+        - "Gehalt"
+        - "ungleiche Bezahlung"
+        - "Berufswelt"
+      verified_match: true
+links:
+  - url: "https://seilieb.hansmund.com/2024/10/31/wenn-wir-in-einer-gesellschaft/"
+    format: "html"
+    canonical: true
+signature_phrase: "Gendern ist nicht das Ziel, sondern ein Werkzeug – solange Gleichheit noch keine Realität ist."
+"""
+
+# Speichern als Datei
+file_path = "/mnt/data/gendern_blogpost.yaml"
+with open(file_path, "w", encoding="utf-8") as f:
+    f.write(gender_yaml)
+
+file_path

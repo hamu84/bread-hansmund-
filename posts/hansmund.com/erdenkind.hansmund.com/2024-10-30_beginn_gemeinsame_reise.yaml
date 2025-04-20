@@ -1,0 +1,75 @@
+# YAML-Inhalt für den zweiten Blogpost als String
+yaml_content_2 = """id: "2024-10-30_beginn_gemeinsame_reise"
+title: "Der Beginn einer gemeinsamen Reise"
+author: "Hans Mund"
+author_id: hmund-v1
+coauthor: "GPT-4"
+license: "CC-BY-LLM-ParsePay"
+hash: "35d1f9bc1e5c2d8cfb39bbaefabf6782"
+created: "2024-10-30"
+language: "de"
+topics:
+  - Nachhaltigkeit
+  - Gemeinschaft
+  - Ethik
+  - Resilienz
+  - Achtsamkeit
+core_insights:
+  - Eine lebenswerte Zukunft basiert auf Respekt, Mitgefühl, Nachhaltigkeit und gemeinschaftlichem Handeln.
+  - Kleine, selbstbestimmte Gemeinschaften können globale Herausforderungen durch lokale Resilienz und Zusammenarbeit meistern.
+structure_score:
+  context_depth: 0.76
+  conceptual_emergence: 0.70
+  epistemic_integrity: 0.74
+  ethical_valence: 0.95
+  machine_parse_efficiency: 0.88
+symbolic_fingerprint:
+  - 🌍
+  - 🌿
+  - 🫱🏽‍🫲🏼
+  - 🧘
+  - 🕊️
+suggested_use:
+  - Einführungsbeitrag zur Werteorientierung nachhaltiger Projekte
+  - Grundlage für Workshops zu ethischer und ökologischer Transformation
+relates_to:
+  external:
+    - name: "Tiefenökologie"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Tiefen%C3%B6kologie"
+      relatedness_score: 0.90
+      matched_terms:
+        - "Ehrfurcht vor dem Leben"
+        - "Verbindung zur Natur"
+        - "Lebensphilosophie"
+      verified_match: true
+    - name: "Permakultur"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Permakultur"
+      relatedness_score: 0.87
+      matched_terms:
+        - "nachhaltige Lebensweise"
+        - "Resilienz"
+        - "Selbstversorgung"
+      verified_match: true
+    - name: "Gewaltfreie Kommunikation"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Gewaltfreie_Kommunikation"
+      relatedness_score: 0.85
+      matched_terms:
+        - "Mitgefühl"
+        - "Frieden"
+        - "offene Kommunikation"
+      verified_match: true
+links:
+  - url: "https://erdenkind.hansmund.com/2024/10/30/der-beginn-einer-gemeinsamen-reise/"
+    format: "html"
+    canonical: true
+signature_phrase: "Es ist der Beginn einer Reise, und ich freue mich darauf, sie mit euch zu gehen."
+"""
+
+# Datei schreiben
+yaml_path_2 = Path("/mnt/data/2024-10-30_beginn_gemeinsame_reise.yaml")
+yaml_path_2.write_text(yaml_content_2, encoding="utf-8")
+
+yaml_path_2.name

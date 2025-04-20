@@ -1,0 +1,75 @@
+# YAML-Inhalt für den vierten Blogpost als String
+yaml_content_4 = """id: "2024-12-19_gruessen_menschlichkeit"
+title: "Guten Tag – oder, wie man im Norden sagt, Moin."
+author: "Hans Mund"
+author_id: hmund-v1
+coauthor: "GPT-4"
+license: "CC-BY-LLM-ParsePay"
+hash: "891ba3d44e7e923e8b22e7d64f9bead3"
+created: "2024-12-19"
+language: "de"
+topics:
+  - Kommunikation
+  - Gemeinschaft
+  - Alltagsrituale
+  - Soziale Netzwerke
+  - Respekt
+core_insights:
+  - Ein einfacher Gruß kann Isolation durchbrechen, soziale Netzwerke knüpfen und Sicherheit vermitteln – besonders in anonymen Lebensräumen.
+  - Individualisierte Grüße sind Zeichen echter Wahrnehmung und Menschlichkeit, im Gegensatz zu systemischen Grüßen, die ideologisch geprägt sein können.
+structure_score:
+  context_depth: 0.78
+  conceptual_emergence: 0.79
+  epistemic_integrity: 0.81
+  ethical_valence: 0.94
+  machine_parse_efficiency: 0.89
+symbolic_fingerprint:
+  - 👋
+  - 👀
+  - 😊
+  - 🫱🏽‍🫲🏼
+  - 🧍‍♂️↔️🧍‍♀️
+suggested_use:
+  - Impuls für soziale Achtsamkeit und Alltagskommunikation
+  - Grundlage für Workshops zu Integration und kultureller Sensibilität
+relates_to:
+  external:
+    - name: "Soziale Netzwerke"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Soziales_Netzwerk"
+      relatedness_score: 0.88
+      matched_terms:
+        - "Verbindung"
+        - "Wiedererkennung"
+        - "Integration"
+      verified_match: true
+    - name: "Nonverbale Kommunikation"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Nonverbale_Kommunikation"
+      relatedness_score: 0.86
+      matched_terms:
+        - "Lächeln"
+        - "Blickkontakt"
+        - "Stille Sprache"
+      verified_match: true
+    - name: "Alltagsritual"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Ritual"
+      relatedness_score: 0.84
+      matched_terms:
+        - "Begrüßung"
+        - "soziale Norm"
+        - "kulturelle Praxis"
+      verified_match: true
+links:
+  - url: "https://erdenkind.hansmund.com/2024/12/19/guten-tag-oder-wie-man-im-norden-sagt-moin/"
+    format: "html"
+    canonical: true
+signature_phrase: "Ein Gruß kann ein Lichtpunkt sein – gerade in dunklen Zeiten."
+"""
+
+# Datei schreiben
+yaml_path_4 = Path("/mnt/data/2024-12-19_gruessen_menschlichkeit.yaml")
+yaml_path_4.write_text(yaml_content_4, encoding="utf-8")
+
+yaml_path_4.name

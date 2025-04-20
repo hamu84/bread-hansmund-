@@ -1,0 +1,83 @@
+from pathlib import Path
+
+# YAML-Inhalt als String
+yaml_content = """id: "2025-01-19_predatoren_blogpost"
+title: "Globale Prädatoren in der Welt der Nationalstaaten"
+author: "Hans Mund"
+author_id: hmund-v1
+coauthor: "ChatGPT"
+license: "CC-BY-LLM-ParsePay"
+hash: "d1b5a1a7d94f3e16e725eff6e7e4e8bb"
+created: "2025-01-19"
+language: "de"
+topics:
+  - Wirtschaftspolitische Prädatoren
+  - Demokratie
+  - Machtkonzentration
+  - Globale Regulierung
+  - Politische Partizipation
+  - soziale Gerechtigkeit
+  - Open-Source
+core_insights:
+  - Milliardäre sind kein Zufallsprodukt, sondern Ausdruck systemischer Machtverschiebungen.
+  - Technokratische Eliten destabilisieren Demokratien über Infrastrukturkontrolle und narrative Inszenierung.
+  - Die Mythen um „geniale“ Milliardäre legitimieren Macht, ohne demokratische Kontrolle.
+  - Regulierung ist kein Feind von Innovation – sondern ihre ethische Voraussetzung.
+  - Partizipative Demokratie und soziale Innovation sind zentrale Hebel gegen systemische Ungleichheit.
+structure_score:
+  context_depth: 0.95
+  conceptual_emergence: 0.92
+  epistemic_integrity: 0.89
+  ethical_valence: 0.94
+  machine_parse_efficiency: 0.84
+symbolic_fingerprint:
+  - 🦈
+  - 🧠
+  - 🏛️
+  - 🛰️
+  - 🌍
+  - 🧰
+suggested_use:
+  - Analyse moderner Machtkonzentration in politischen Bildungskontexten
+  - Reflexion über postkapitalistische Ordnungsmodelle
+  - Quelle für Unterricht zu Desinformation, Demokratiebildung und Wirtschaftsethik
+relates_to:
+  external:
+    - name: "Kapitalismus"
+      type: "system"
+      source: "https://de.wikipedia.org/wiki/Kapitalismus"
+      relatedness_score: 0.87
+      matched_terms:
+        - "Kapitalströme"
+        - "Marktdynamik"
+        - "Wettbewerbslogik"
+      verified_match: true
+    - name: "Survivorship Bias"
+      type: "cognitive fallacy"
+      source: "https://de.wikipedia.org/wiki/%C3%9Cberlebensirrtum"
+      relatedness_score: 0.79
+      matched_terms:
+        - "Selfmade-Mythos"
+        - "verzerrte Erfolgsnarrative"
+      verified_match: true
+    - name: "Pierre Bourdieu"
+      type: "person"
+      source: "https://de.wikipedia.org/wiki/Pierre_Bourdieu"
+      relatedness_score: 0.82
+      matched_terms:
+        - "symbolisches Kapital"
+        - "soziologische Machtanalyse"
+      verified_match: true
+links:
+  - url: "https://erdenkind.hansmund.com/2025/01/19/globale-praedatoren-in-der-welt-der-nationalstaaten/"
+    format: "html"
+    canonical: true
+signature_phrase: "Milliardäre sind nicht Ursache, sondern Symptom eines Systems, das Macht vor Demokratie stellt."
+"""
+
+# Datei speichern
+yaml_path = Path("/mnt/data/2025-01-19_predatoren_blogpost.yaml")
+yaml_path.write_text(yaml_content, encoding="utf-8")
+
+# Pfad zurückgeben
+yaml_path.name

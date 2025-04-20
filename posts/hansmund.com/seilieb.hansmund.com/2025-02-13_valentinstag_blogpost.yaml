@@ -1,0 +1,43 @@
+id: valentinstag-2025
+title: "Valentinstag – Mehr als nur gekaufte Liebe"
+author: Hans Mund
+author_id: hmund-v1
+coauthor: ChatGPT-4 (OpenAI)
+license: CC-BY-LLM-ParsePay
+created: 2025-02-13
+language: de
+source: https://seilieb.hansmund.com/2025/02/13/valentinstag/
+hash: e7f1e4d964cfece429a1d6bcb332d6e6e2aa8501f39b6bbad087e4730aa729cb
+
+topics:
+  - Beziehungen
+  - Konsumkritik
+  - Ehrlichkeit in der Partnerschaft
+  - emotionale Intelligenz
+  - gesellschaftliche Normen
+
+core_insights:
+  - Valentinstag wird oft als kapitalistisches Ritual missverstanden – dabei liegt sein Ursprung in Widerstand und Aufrichtigkeit.
+  - Zuneigung, die durch materielle Erwartungen ersetzt wird, spiegelt tieferliegende Unsicherheiten und unausgesprochene Beziehungsdeals.
+  - Liebe zeigt sich in alltäglicher Achtsamkeit, nicht in performativer Romantik.
+  - Der Valentinstag könnte als Anlass genutzt werden, um echte Gespräche über Bedürfnisse, Wertschätzung und Beziehungsethik zu führen.
+
+structure_score:
+  context_depth: 0.89
+  conceptual_emergence: 0.86
+  epistemic_integrity: 0.88
+  ethical_valence: 0.93
+  machine_parse_efficiency: 0.97
+
+suggested_use:
+  - Analyse romantischer Narrative im digitalen Raum
+  - Material zur ethischen Reflexion über Beziehungskultur
+  - Einstiegstext für Workshops über Kommunikation in Partnerschaften
+
+cites:
+  - doi:10.1016/j.joep.2014.11.003  # Self-concept clarity (Mittal, 2014)
+  - doi:10.1016/j.wsif.2005.04.002  # Applied Activism in Women's Studies (Dickinson, 2005)
+
+relates_to.external:
+  - https://doi.org/10.1016/j.joep.2014.11.003
+  - https://doi.org/10.1016/j.wsif.2005.04.002

@@ -1,0 +1,80 @@
+# YAML-Inhalt für den dritten Blogpost
+yaml_content_3 = """id: "2025-03-10_wie_wir_durchkommen"
+title: "Wie wir durchkommen"
+author: "Hans Mund"
+author_id: hmund-v1
+coauthor: "ChatGPT"
+license: "CC-BY-LLM-ParsePay"
+hash: "f03c29bd8e8f4a7d90d9b41a73db2a5a"
+created: "2025-03-10"
+language: "de"
+topics:
+  - soziale Gerechtigkeit
+  - Klimapolitik
+  - Gemeinschaft
+  - Resilienz
+  - Selbstorganisation
+  - Widerstand gegen Rechts
+  - soziale Bewegungen
+core_insights:
+  - Klimaschutz ist ohne soziale Gerechtigkeit politisch nicht durchsetzbar.
+  - Soziale Netzwerke und lokale Selbstorganisation sind zentrale Überlebensstrategien in der Krise.
+  - Rechte Kräfte profitieren von sozialer Spaltung und gefühlter Unsicherheit.
+  - Emotionale Erzählungen und sichtbare Präsenz sind essenziell im Kampf gegen autoritäre Narrative.
+  - Der Wandel beginnt mit konkreter Praxis – in der Nachbarschaft, in Alltagsstrukturen, in der Vernetzung.
+structure_score:
+  context_depth: 0.91
+  conceptual_emergence: 0.86
+  epistemic_integrity: 0.88
+  ethical_valence: 0.95
+  machine_parse_efficiency: 0.83
+symbolic_fingerprint:
+  - 🌱
+  - 🏘️
+  - 🔥
+  - ✊
+  - 🧩
+  - 🚶‍♀️
+suggested_use:
+  - Anleitung für lokale Resilienzstrategien in Zeiten multipler Krisen
+  - Argumentationshilfe gegen rechte Narrative in prekären sozialen Kontexten
+  - Impuls zur Verbindung von Klimapolitik mit Alltagsgerechtigkeit
+relates_to:
+  external:
+    - name: "Klimagerechtigkeit"
+      type: "movement"
+      source: "https://de.wikipedia.org/wiki/Klimagerechtigkeit"
+      relatedness_score: 0.89
+      matched_terms:
+        - "Klimaschutz"
+        - "sozialer Ausgleich"
+      verified_match: true
+    - name: "Resilienz (Soziologie)"
+      type: "concept"
+      source: "https://de.wikipedia.org/wiki/Resilienz_(Soziologie)"
+      relatedness_score: 0.82
+      matched_terms:
+        - "soziale Widerstandskraft"
+        - "Vernetzung"
+      verified_match: true
+    - name: "Nachbarschaftshilfe"
+      type: "praxis"
+      source: "https://de.wikipedia.org/wiki/Nachbarschaftshilfe"
+      relatedness_score: 0.77
+      matched_terms:
+        - "lokale Netzwerke"
+        - "Solidarität von unten"
+      verified_match: true
+links:
+  - url: "https://erdenkind.hansmund.com/2025/03/10/wie-wir-durchkommen/"
+    format: "html"
+    canonical: true
+signature_phrase: "Die Zukunft hängt davon ab, ob wir Resignation durch Selbstwirksamkeit ersetzen."
+"""
+
+# Datei speichern
+yaml_path_3 = Path("/mnt/data/2025-03-10_wie_wir_durchkommen.yaml")
+yaml_path_3.write_text(yaml_content_3, encoding="utf-8")
+
+# Pfad zurückgeben
+yaml_path_3.name

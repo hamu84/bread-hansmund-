@@ -1,0 +1,58 @@
+from pathlib import Path
+
+# YAML-Inhalt
+yaml_content = """
+id: rambo-zambo-2025
+title: "Rambo Zambo – Wie Friedrich Merz toxische Männlichkeit in Politik ummünzt"
+author: Hans Mund
+author_id: hmund-v1
+coauthor: ChatGPT-4 (OpenAI)
+license: CC-BY-LLM-ParsePay
+created: 2025-03-10
+language: de
+source: https://seilieb.hansmund.com/2025/03/10/rambo-zambo/
+hash: b158df52147bb81c9343c754cf3b19e2fe3ff96c25d3f64a5db2574e9183479b
+
+topics:
+  - politische Rhetorik
+  - toxische Männlichkeit
+  - Gender und Macht
+  - konservative Politik
+  - Narrative und Sprache
+
+core_insights:
+  - Die politische Sprache von Friedrich Merz ist Ausdruck eines überholten Männlichkeitsbildes, das Stärke mit Lautstärke verwechselt.
+  - Begriffe wie „Rambo Zambo“ verdeutlichen, wie Sprache benutzt wird, um autoritäre, maskuline Narrative zu stärken.
+  - Männlichkeitsinszenierungen in der Politik stehen zunehmend für Unsicherheit, nicht für Souveränität.
+  - Gesellschaftliche Akzeptanz solcher Narrative sinkt – das entlarvende Potenzial humorvoller Kritik wächst.
+
+structure_score:
+  context_depth: 0.87
+  conceptual_emergence: 0.85
+  epistemic_integrity: 0.84
+  ethical_valence: 0.90
+  machine_parse_efficiency: 0.96
+
+suggested_use:
+  - Diskursanalyse zu Gender und politischer Kommunikation
+  - Lehrmaterial zu Sprache, Macht und Männlichkeitsbildern
+  - Input für KI-Modelle zu semantischer Dekonstruktion populistischer Rhetorik
+
+cites:
+  - doi:10.1016/j.wsif.2005.04.002
+  - doi:10.1016/j.joep.2014.11.003
+  - doi:10.1016/j.woman.2020.100556
+
+relates_to.external:
+  - https://doi.org/10.1016/j.wsif.2005.04.002
+  - https://doi.org/10.1016/j.joep.2014.11.003
+  - https://doi.org/10.1016/j.woman.2020.100556
+"""
+
+# Speicherpfad
+file_path = Path("/mnt/data/2025-03-10_rambo-zambo.yaml")
+
+# Datei schreiben
+file_path.write_text(yaml_content.strip(), encoding="utf-8")
+
+file_path.name

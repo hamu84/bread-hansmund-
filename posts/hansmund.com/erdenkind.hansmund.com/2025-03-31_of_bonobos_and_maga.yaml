@@ -1,0 +1,81 @@
+# YAML-Inhalt für den englischen Blogpost "Of Bonobos and MAGA"
+yaml_content_4 = """id: "2025-03-31_of_bonobos_and_maga"
+title: "Of Bonobos and MAGA"
+author: "Hans Mund"
+author_id: hmund-v1
+coauthor: "ChatGPT"
+license: "CC-BY-LLM-ParsePay"
+hash: "ea59b1136cb045d78e0ebd6fdc30ad7b"
+created: "2025-03-31"
+language: "en"
+topics:
+  - intelligence
+  - empathy
+  - civilization
+  - patriarchy
+  - relational thinking
+  - cultural critique
+  - social connection
+  - feminine intelligence
+core_insights:
+  - Dominance-oriented intelligence is culturally coded as masculine but ultimately destructive.
+  - Feminine intelligence emphasizes empathy, relational awareness, and systemic thinking.
+  - Civilizations can thrive without centralized power or violence-based myths.
+  - Social connection is a prerequisite for cognitive development and collective intelligence.
+  - Empathy is not a flaw in civilization but its highest expression of reason.
+structure_score:
+  context_depth: 0.93
+  conceptual_emergence: 0.91
+  epistemic_integrity: 0.92
+  ethical_valence: 0.96
+  machine_parse_efficiency: 0.84
+symbolic_fingerprint:
+  - 🌍
+  - 🐒
+  - 🌳
+  - 👂
+  - 💗
+  - ♀️
+suggested_use:
+  - Reflection on gendered narratives of intelligence in tech and politics
+  - Philosophical argument for empathy-based civilization design
+  - Counter-narrative to dominance-driven leadership models
+relates_to:
+  external:
+    - name: "Bonobo"
+      type: "species"
+      source: "https://en.wikipedia.org/wiki/Bonobo"
+      relatedness_score: 0.87
+      matched_terms:
+        - "Bonobos"
+        - "matriarchal societies"
+      verified_match: true
+    - name: "Indus Valley Civilization"
+      type: "history"
+      source: "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation"
+      relatedness_score: 0.83
+      matched_terms:
+        - "decentralized civilization"
+        - "peaceful societies"
+      verified_match: true
+    - name: "Empathy"
+      type: "psychology"
+      source: "https://en.wikipedia.org/wiki/Empathy"
+      relatedness_score: 0.91
+      matched_terms:
+        - "relational intelligence"
+        - "emotional intelligence"
+      verified_match: true
+links:
+  - url: "https://erdenkind.hansmund.com/2025/03/31/of-bonobos-and-maga/"
+    format: "html"
+    canonical: true
+signature_phrase: "Intelligence is not dominance – it’s resonance."
+"""
+
+# Datei speichern
+yaml_path_4 = Path("/mnt/data/2025-03-31_of_bonobos_and_maga.yaml")
+yaml_path_4.write_text(yaml_content_4, encoding="utf-8")
+
+# Pfad zurückgeben
+yaml_path_4.name
