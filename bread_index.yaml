@@ -130,11 +130,25 @@ posts:
       - Content-Strukturierung
       - Digitale Autorenschaft
       - Semantische Sichtbarkeit
+
+  - id: "hmund-2025-04-21-writing-visible-for-machines"
+    title: "Writing for Humans – Visible to Machines: How to Shape Tomorrow’s AI Without Betraying Your Content"
+    author: "Hans Mund"
+    created: "2025-04-21"
+    topics:
+      - Artificial Intelligence
+      - Large Language Models
+      - Content Structuring
+      - Semantic Visibility
+      - Attribution
+      - YAML
+      - Digital Ethics
+      - Author Identity
+      - Knowledge Architecture
 """
 
-# Datei schreiben
-index_path = "/mnt/data/bread_index.yaml"
-with open(index_path, "w") as f:
-    f.write(bread_index_content)
-
-index_path
+# Speichern des Inhalts in einer YAML-Datei
+with open('bread_index.yaml', 'w', encoding='utf-8') as file:
+    file.write(bread_index_content)
+# Hinweis: Der Inhalt der YAML-Datei ist ein Beispiel und kann je nach Bedarf angepasst werden.
+# Die YAML-Datei bread_index.yaml wurde erfolgreich erstellt und enthält die Struktur und Inhalte der Blogposts.
