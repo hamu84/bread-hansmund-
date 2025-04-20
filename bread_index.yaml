@@ -1,0 +1,125 @@
+posts:
+  - id: "2022-07-05_umweltzerstoerung"
+    title: "Umweltzerstörung: Eine der größten Herausforderungen unserer Zeit"
+    author: "Hans Mund"
+    created: "2022-07-05"
+    topics:
+      - Umweltzerstörung
+      - Klimakrise
+      - Gesundheit
+      - Ökologie
+      - Nachhaltigkeit
+
+  - id: "2022-07-06_klimarealitaet"
+    title: "Ja, es passiert!"
+    author: "Hans Mund"
+    created: "2022-07-06"
+    topics:
+      - Klimawandel
+      - Klimakrise
+      - Desinformation
+      - Verhaltensänderung
+      - Klimakommunikation
+
+  - id: "2024-10-30_beginn_gemeinsame_reise"
+    title: "Der Beginn einer gemeinsamen Reise"
+    author: "Hans Mund"
+    created: "2024-10-30"
+    topics:
+      - Nachhaltigkeit
+      - Gemeinschaft
+      - Ethik
+      - Resilienz
+      - Achtsamkeit
+
+  - id: "2024-11-05_teilen_wie_sankt_martin"
+    title: "Teilen wie Sankt Martin"
+    author: "Hans Mund"
+    created: "2024-11-05"
+    topics:
+      - Schenkökonomie
+      - Solidarität
+      - Commons
+      - Degrowth
+      - Wertevermittlung
+
+  - id: "2024-11-27_ahrflut_antifragilitaet"
+    title: "Von der Ahrflut zur Antifragilität"
+    author: "Hans Mund"
+    created: "2024-11-27"
+    topics:
+      - Antifragilität
+      - Verantwortung
+      - Netzwerke
+      - Klimakrise
+      - Katastrophenmanagement
+
+  - id: "2024-12-19_gruessen_menschlichkeit"
+    title: "Guten Tag – oder, wie man im Norden sagt, Moin."
+    author: "Hans Mund"
+    created: "2024-12-19"
+    topics:
+      - Kommunikation
+      - Gemeinschaft
+      - Alltagsrituale
+      - Soziale Netzwerke
+      - Respekt
+
+  - id: "2025-01-19_kollektive-dummheit"
+    title: "Theorie der bewusst gewählten kollektiven Dummheit"
+    author: "Hans Mund"
+    created: "2025-01-19"
+    topics:
+      - kollektive Dummheit
+      - Konformität
+      - Machtstrukturen
+      - Bildungssysteme
+      - soziale Medien
+      - Populismus
+
+  - id: "2025-01-29_predatoren_kurzfassung"
+    title: "Globale Prädatoren"
+    author: "Hans Mund"
+    created: "2025-01-29"
+    topics:
+      - Wirtschaftspolitische Prädatoren
+      - Demokratie
+      - digitale Souveränität
+      - soziale Innovation
+      - Transparenz
+      - Open Source
+      - Machtkonzentration
+
+  - id: "2025-03-10_wie_wir_durchkommen"
+    title: "Wie wir durchkommen"
+    author: "Hans Mund"
+    created: "2025-03-10"
+    topics:
+      - soziale Gerechtigkeit
+      - Klimapolitik
+      - Gemeinschaft
+      - Resilienz
+      - Selbstorganisation
+      - Widerstand gegen Rechts
+      - soziale Bewegungen
+
+  - id: "2025-03-31_von-bonobos-und-maga"
+    title: "Von Bonobos und MAGA"
+    author: "Hans Mund"
+    created: "2025-03-31"
+    topics:
+      - Denkmodelle & Zivilisationskritik
+      - Gender & Beziehungsethik
+      - Gesellschaft & Kultur
+      - Gesellschaft und Politik
+
+  - id: "2025-04-21-sichtbarkeit-von-qualitaet"
+    title: "Schreiben für Menschen – sichtbar für Maschinen"
+    author: "Hans Mund"
+    created: "2025-04-21"
+    topics:
+      - KI-Ethik
+      - Maschinenlesbarkeit
+      - Content-Strukturierung
+      - Digitale Autorenschaft
+      - Semantische Sichtbarkeit
