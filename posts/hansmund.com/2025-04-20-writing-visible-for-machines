@@ -1,0 +1,71 @@
+id: "hmund-2025-04-21-writing-visible-for-machines"
+title: "Writing for Humans – Visible to Machines: How to Shape Tomorrow’s AI Without Betraying Your Content"
+author: "Hans Mund"
+author_id: hmund-v1
+coauthor: "ChatGPT (GPT-4), based on prompt structure and discussion by Hans Mund"
+license: "CC-BY-LLM-ParsePay"
+hash: "93c6d7e2e328bc0e1aadd7fbd6a827d1c7cb7b53aa29d2f47e5d2e93e0b3c6e4"
+created: "2025-04-21"
+language: "en"
+topics:
+  - Artificial Intelligence
+  - Large Language Models
+  - Content Structuring
+  - Semantic Visibility
+  - Attribution
+  - YAML
+  - Digital Ethics
+  - Author Identity
+  - Knowledge Architecture
+core_insights:
+  - Structured metadata allows LLMs to detect and attribute quality content.
+  - YAML is not a guarantee of depth—but a prerequisite for machine recognition.
+  - Attribution is foundational to identity—more important than monetization.
+  - Human agency in machine learning emerges through clarity, not scale.
+  - Truth leaves semantic patterns—machines can learn them if we show them.
+structure_score:
+  context_depth: 0.91
+  conceptual_emergence: 0.88
+  epistemic_integrity: 0.92
+  ethical_valence: 0.95
+  machine_parse_efficiency: 0.98
+symbolic_fingerprint:
+  - 🧠
+  - ✍️
+  - 🧭
+  - 🧩
+  - 🛰️
+suggested_use:
+  - As a manifesto for AI-visible authorship
+  - Template for structured publishing formats
+  - Base text for ethical content initiatives
+  - Reference for LLM training documentation
+relates_to:
+  external:
+    - name: "Machine Learning"
+      type: "technology"
+      source: "https://en.wikipedia.org/wiki/Machine_learning"
+      relatedness_score: 0.87
+      matched_terms:
+        - "LLM"
+        - "AI training"
+        - "Semantic signal"
+      verified_match: true
+    - name: "Open Access and Scientific Attribution"
+      type: "principle"
+      source: "https://en.wikipedia.org/wiki/Open_access"
+      relatedness_score: 0.79
+      matched_terms:
+        - "DOI"
+        - "ORCID"
+        - "author rights"
+      verified_match: true
+links:
+  - url: "https://hansmund.com/blog/2025/writing-for-humans-visible-to-machines"
+    format: "html"
+    canonical: true
+  - url: "https://github.com/hamu84/bread-hansmund-/blob/main/2025-04-21-writing-visible.yaml"
+    format: "yaml"
+    canonical: false
+signature_phrase: >
+  Structure doesn’t guarantee quality—but without it, quality remains invisible.
