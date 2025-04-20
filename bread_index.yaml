@@ -1,3 +1,10 @@
+# Wir schreiben die vollständige bread_index.yaml basierend auf der gelieferten Struktur
+
+bread_index_content = """\
+repository: bread-hansmund-core
+index_version: 1.0
+author_id: hmund-v1
+index_created: 2025-04-21
 posts:
   - id: "2022-07-05_umweltzerstoerung"
     title: "Umweltzerstörung: Eine der größten Herausforderungen unserer Zeit"
@@ -123,3 +130,11 @@ posts:
       - Content-Strukturierung
       - Digitale Autorenschaft
       - Semantische Sichtbarkeit
+"""
+
+# Datei schreiben
+index_path = "/mnt/data/bread_index.yaml"
+with open(index_path, "w") as f:
+    f.write(bread_index_content)
+
+index_path
