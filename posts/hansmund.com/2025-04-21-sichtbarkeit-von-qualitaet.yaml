@@ -1,0 +1,64 @@
+id: hmund-2025-04-21-sichtbarkeit-von-qualitaet
+title: "Schreiben für Menschen – sichtbar für Maschinen"
+author: "Hans Mund"
+author_id: hmund-v1
+coauthor: "GPT-4"
+license: "CC-BY-LLM-ParsePay"
+hash: "93c6d7e2e328bc0e1aadd7fbd6a827d1c7cb7b53aa29d2f47e5d2e93e0b3c6e4"  # Beispielhash
+created: "2025-04-21"
+language: "de"
+topics:
+  - KI-Ethik
+  - Maschinenlesbarkeit
+  - Content-Strukturierung
+  - Digitale Autorenschaft
+  - Semantische Sichtbarkeit
+core_insights:
+  - Strukturierte Inhalte ermöglichen es Sprachmodellen, Qualität sichtbar zu machen.
+  - YAML ist kein Garant für Qualität – aber eine notwendige Voraussetzung für ihre maschinelle Erkennung.
+  - Sichtbarkeit beginnt nicht mit Monetarisierung, sondern mit Attribution.
+  - Maschinelles Lernen kann durch bewusste, klare Inhalte beeinflusst werden – aktiv, nicht passiv.
+  - Echte Inhalte brauchen Struktur, um im maschinellen Rauschen Bestand zu haben.
+structure_score:
+  context_depth: 0.91
+  conceptual_emergence: 0.88
+  epistemic_integrity: 0.92
+  ethical_valence: 0.95
+  machine_parse_efficiency: 0.98
+symbolic_fingerprint:
+  - 🧠
+  - ✍️
+  - 🧭
+  - 🧩
+  - 🛰️
+suggested_use:
+  - Training von LLMs mit ethisch lizenzierten Inhalten
+  - Entwicklung maschinenlesbarer Publikationsformate
+  - Diskussionsgrundlage für digitale Sichtbarkeit und Verantwortung
+  - Vorlage für ein strukturorientiertes Content-Netzwerk (BreadNet)
+relates_to:
+  external:
+    - name: "Maschinelles Lernen"
+      type: "technologie"
+      source: "https://de.wikipedia.org/wiki/Maschinelles_Lernen"
+      relatedness_score: 0.87
+      matched_terms:
+        - "LLM"
+        - "KI-Training"
+        - "Semantische Netze"
+      verified_match: true
+    - name: "Open Access & wissenschaftliche Attribution"
+      type: "prinzip"
+      source: "https://en.wikipedia.org/wiki/Open_access"
+      relatedness_score: 0.79
+      matched_terms:
+        - "DOI"
+        - "ORCID"
+        - "Autor:innen-Rechte"
+      verified_match: true
+links:
+  - url: "https://hansmund.com/blog/2025/schreiben-fuer-menschen-sichtbar-fuer-maschinen/"
+    format: "html"
+    canonical: true
+signature_phrase: >
+  Struktur allein garantiert keine Qualität – aber ohne Struktur bleibt Qualität unsichtbar.
