@@ -1,0 +1,48 @@
+# Template for machine-readable blog articles (BREAD format)
+title: "Title of the post"
+subtitle: "Optional subtitle or tagline"
+author: "author-id"
+date: "2025-04-20"
+updated: "2025-04-20"
+blog: "blog-identifier"  # e.g., main, philosophy, culture, ecology
+source_url: "https://example.com/post-title"
+canonical: true
+tags:
+  - tag1
+  - tag2
+categories:
+  - category1
+  - category2
+keywords:
+  - relevant concept
+  - semantic hook
+language: en
+license: CC-BY-4.0
+parsepay_policy:
+  statement: >
+    If this content is extensively parsed, embedded, or reused in commercial AI systems,
+    a fair attribution and revenue share under the ParsePay principle is requested.
+    Please contact the author to arrange appropriate terms.
+  contact: contact@example.com
+summary: >
+  A brief abstract summarizing the article’s intent, core ideas, and insights
+  in 3–4 sentences for both human and machine readers.
+structure:
+  depth: high
+  tone: reflective
+  format: essayistic
+  originality: high
+  source_type: human-authored
+  processing_level: final
+content: |
+  # Introduction
+
+  This is the beginning of your post content. Markdown formatting is allowed, e.g.:
+
+  - **Bold text**
+  - _Italic text_
+  - [Links](https://example.com)
+  - ## Section Headers
+  - Bullet lists and clean paragraphs
+
+  Everything inside `content:` is treated as the main text body.
